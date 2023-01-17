@@ -18,3 +18,6 @@ alias gs="git stash"
 alias gsp="git stash pop"
 
 alias git-rm-orphanedbranches="git fetch -p && git branch -vv | grep gone | cut -d' ' -f 3 | grep . | xargs git branch -D"
+
+# Python
+alias python="/usr/local/bin/python3"
