@@ -131,3 +131,6 @@ source $ZSH/oh-my-zsh.sh
 # GPG
 export GPG_TTY=$TTY
 gpgconf --launch gpg-agent
+
+# Add krew to path
+export PATH="${PATH}:${HOME}/.krew/bin"
